@@ -1,0 +1,8 @@
+.next
+node_modules
+out
+build
+coverage
+*.log
+pnpm-lock.yaml
+kol-err-app-*.json

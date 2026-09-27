@@ -13,20 +13,15 @@ export function LandingHeader() {
     <>
       <header className="landing-nav">
         <Brand />
-        <nav aria-label="Navigasi utama">
-          <a href="#fitur">Fitur</a>
-          <a href="#cara">Cara kerja</a>
-          <a href="#hasil">Hasil</a>
-        </nav>
+        <nav aria-label="Navigasi utama"></nav> 
         <div className="nav-actions">
-          <ThemeToggle />
           <button
-            className="button primary desktop"
+            className="button primary"
             onClick={() => setIsOpen(true)}
           >
             Masuk <Icon name="arrow" size={17} />
           </button>
-        </div>
+        </div> 
       </header>
     </>
   );
